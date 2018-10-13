@@ -1,0 +1,64 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=fullAdder
+
+[Library]
+fullAdder=.\fullAdder\fullAdder.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=1
+
+[$LibMap$]
+fullAdder=.
+Active_lib=
+
+[Folders]
+Name3=Makefiles
+Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\
+Extension3=mak
+Name4=Memory
+Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\
+Extension5=dll
+Name6=PDF
+Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\
+Extension6=pdf
+Name7=HTML
+Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\
+Extension7=htm;html
+
+[Files]
+/fullAdder.vhd=-1
+/fullAdder Waveform.awf=-1
+
+[Files.Data]
+.\src\fullAdder.vhd=VHDL Source Code
+.\src\fullAdder Waveform.awf=Waveform File
+

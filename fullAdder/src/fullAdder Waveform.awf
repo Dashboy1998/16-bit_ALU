@@ -1,0 +1,55 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 250000
+I 1 "c#3#bitc2 01"
+$IN 1 1 "/fullAdder/A"
+$IN 2 1 11 0 B
+$IN 3 1 11 0 Cin
+I 2 "a#21#new_type_name(0 to 1)1 rict0 1 c#3#bitc2 01"
+$BUS VBUS 8 2 2 VBUS2
+$OUT 5 1 "/fullAdder/Cout" 8 0
+$OUT 4 1 11 0 S 8 1
+P 0 1-5 8 CS "0"
+P 0 8 Shape "2"
+$WAVES 1
+=0 T 0
+R 1 2 =1 T 100k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 2
+*0
+R 1 5 =2 T 50k
+$VALUES
+R 2 3 0 1
+$END
+$WAVES 3
+*0
+R 1 10 =3 T 25k
+$VALUES
+R 2 5 0 1
+V 1
+0
+$END
+$WAVES 4
+*0
+=4 T 45k
+R 3 2 *2 =5 T 15k =6 T 35k
+$VALUES
+R 2 4 0 1
+$END
+$WAVES 5
+*0
+=7 T 95k
+*3
+*6
+=8 T 65k
+$VALUES
+R 2 2 0 1
+V 1
+0
+$END
+$ENDWAVE
