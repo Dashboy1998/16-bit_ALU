@@ -1,7 +1,9 @@
 -- 2 input XNOR gate
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity xnor2 is
-	port(A, B: in bit; C: out bit);
+	port(A, B: in std_logic:='0'; C: out std_logic:='0');
 end entity xnor2;
 
 architecture xnor2 of xnor2 is

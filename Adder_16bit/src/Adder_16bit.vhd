@@ -1,24 +1,25 @@
+library ieee;
 library fullAdder;
 library halfAdder;
+use ieee.std_logic_1164.all;
 use fullAdder.all;
 use halfAdder.all;
 
 entity Adder_16bits is
-	--type bit_vector is array (NATURAL range <>) of bit;
 	port(
-	A, B: in bit_vector(15 downto 0); -- Two inputs
-	S: inout bit_vector(15 downto 0)-- Overflow not needed for adder
+	A, B: in std_logic_vector(15 downto 0); -- Two inputs
+	S: inout std_logic_vector(15 downto 0)-- Overflow not needed for adder
 	);
 end entity Adder_16bits;
 
 architecture structural of Adder_16bits is
 component fullAdder
-	port(A, B, Cin: in bit; S, Cout: out bit);	
+	port(A, B, Cin: in std_logic; S, Cout: out std_logic);	
 end component fullAdder;
 component halfAdder
-	port(A,B: in bit; S, Cout : out bit);	
+	port(A,B: in std_logic; S, Cout : out std_logic);	
 end component halfAdder;
-signal Co: bit_vector(15 downto 0); -- May not need #15
+signal Co: std_logic_vector(15 downto 0); -- May not need #15
 begin
 	LSB: halfAdder port map(A(0), B(0), S(0), Co(0));
 	

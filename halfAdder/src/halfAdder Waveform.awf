@@ -1,0 +1,48 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 100000
+I 1 "c#9#STD_LOGICc9 UX01ZWLH-"
+$IN 1 1 "/halfAdder/A"
+$IN 2 1 11 0 B
+I 2 "a#21#new_type_name(0 to 1)1 rict0 1 c#9#STD_LOGICc9 UX01ZWLH-"
+$BUS VBUS 5 2 2 VBUS0
+$OUT 4 1 "/halfAdder/Cout" 5 0
+$OUT 3 1 11 0 S 5 1
+P 0 1-5 CS "0"
+P 0 5 Shape "2"
+P 0 2 Stimulator "CLK:FRM:Override:25.000000;2;1;0;50;1:Clock:1:"
+P 0 1 Stimulator "CLK:FRM:Override:50.000000;2;1;0;50;1:Clock:1:"
+$WAVES 1
+=0 T 0
+R 1 4 =1 T 25k
+$VALUES
+R 2 2 0 1
+V 1
+0
+$END
+$WAVES 2
+*0
+R 1 8 =2 T 12500
+$VALUES
+R 2 4 0 1
+V 1
+0
+$END
+$WAVES 3
+*0
+=3 T 22500
+R 1 3 *1
+$VALUES
+R 2 2 0 1
+V 1
+0
+$END
+$WAVES 4
+*0
+=4 T 47500
+*2
+=5 T 37500
+$VALUES
+R 2 2 0 1
+$END
+$ENDWAVE

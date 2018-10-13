@@ -33,31 +33,25 @@ Active_lib=
 WindowVisible=0
 [Files]
 /Adder_16bit.vhd=-1
-TestBench/adder_16bits_TB.vhd=-1
-TestBench/adder_16bits_TB_runtest.do=-1
 [Files.Data]
 .\src\Adder_16bit.vhd=VHDL Source Code
-.\src\TestBench\adder_16bits_TB.vhd=VHDL Test Bench
-.\src\TestBench\adder_16bits_TB_runtest.do=Macro
 [Folders]
 Name3=Makefiles
-Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory3=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
 Extension3=mak
 Name4=Memory
-Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory4=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory5=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
 Extension5=dll
 Name6=PDF
-Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory6=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
 Extension6=pdf
 Name7=HTML
-Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory7=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
 Extension7=htm;html
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
-[Groups]
-TestBench=1

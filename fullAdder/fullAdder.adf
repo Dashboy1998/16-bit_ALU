@@ -62,3 +62,9 @@ Extension7=htm;html
 .\src\fullAdder.vhd=VHDL Source Code
 .\src\fullAdder Waveform.awf=Waveform File
 
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=fulladder|structural|0 
+ShowHide=ShowTopLevel
+Selected=

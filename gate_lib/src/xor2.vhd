@@ -1,7 +1,9 @@
 -- 2 input XOR gate
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity xor2 is
-	port(A, B: in bit; C: out bit);
+	port(A, B: in std_logic:='0'; C: out std_logic:='0');
 end entity xor2;
 
 architecture xor2 of xor2 is
