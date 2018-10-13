@@ -5,6 +5,7 @@ fulladder=.\fullAdder\fullAdder.adf
 gate_lib=.\gate_lib\gate_lib.adf
 halfadder=.\halfAdder\halfAdder.adf
 adder_16bit=.\Adder_16bit\Adder_16bit.adf
+subtractor_16bit=.\Subtractor_16bit\Subtractor_16bit.adf
 [Browser]
 sort=order
 mode=none
@@ -14,9 +15,10 @@ macro=
 [Expand]
 fulladder=0
 gate_lib=0
-halfadder=0
+halfadder=1
 adder_16bits=0
 16bitadder=0
 adder_16bit=1
+subtractor_16bit=1
 [Settings]
-Active=adder_16bit
+Active=subtractor_16bit

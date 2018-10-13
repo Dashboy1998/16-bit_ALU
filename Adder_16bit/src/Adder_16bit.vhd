@@ -25,5 +25,8 @@ begin
 		alias Cin : std_logic is Co(i-1); -- Alias to make the carry out of I-1 into the carry in of I
 		begin	  
 		AddX:fullAdder port map(A(i),B(i), Cin, S(i), Co(i));
-	end generate Add;
+	end generate Add;						 
+	
+	--mux: mux port map(Sum(i), Pro(i), A(i), B(i), Dif(i), 0, 0, S0, S1, S2, O(i));
+	
 end structural;
