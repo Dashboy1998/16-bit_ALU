@@ -1,6 +1,9 @@
-
+library ieee;
+use ieee.std_logic_1164.all;
 	-- Add your library and packages declaration here ...
-
+use work.testVector.all;
+	
+	
 entity adder_16bits_tb is
 end adder_16bits_tb;
 
@@ -8,22 +11,23 @@ architecture TB_ARCHITECTURE of adder_16bits_tb is
 	-- Component declaration of the tested unit
 	component adder_16bits
 	port(
-		A : in BIT_VECTOR(15 downto 0);
-		B : in BIT_VECTOR(15 downto 0);
-		S : inout BIT_VECTOR(15 downto 0) );
+		A : in STD_LOGIC_VECTOR(15 downto 0);
+		B : in STD_LOGIC_VECTOR(15 downto 0);
+		C : in STD_LOGIC; 
+		S : inout STD_LOGIC_VECTOR(15 downto 0) );
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
-	signal A : BIT_VECTOR(15 downto 0);
-	signal B : BIT_VECTOR(15 downto 0);
-	signal S : BIT_VECTOR(15 downto 0);
-	signal test : BIT_VECTOR(31 downto 0);
-	signal clk : bit;
-	signal testing : boolean:= true;
+	signal A : STD_LOGIC_VECTOR(15 downto 0);
+	signal B : STD_LOGIC_VECTOR(15 downto 0);
+	signal C : STD_LOGIC;
+	signal S : STD_LOGIC_VECTOR(15 downto 0);
+	signal delayA : STD_LOGIC_VECTOR(15 downto 0):=(others => '0');
+	signal delayB : STD_LOGIC_VECTOR(15 downto 0):=(others => '0');
 	-- Observed signals - signals mapped to the output ports of tested entity
 
 	-- Add your code here ...
-
+	
 begin
 
 	-- Unit Under Test port map
@@ -31,23 +35,25 @@ begin
 		port map (
 			A => A,
 			B => B,
+			C => C,
 			S => S
 		);
 
 	-- Add your stimulus here ...
 	
-	process(clk)
-	begin 
-		test <= test + 1;
-		if(test = "11111111111111111111111111111111") then
-			testing <= false;
-		end if;
+	process
+	begin
+		wait for 480ns;
+		
+		
 	end process;
 	
-	clk <= not clk after 200ns when testing;
-	A <= test(15 downto 0);
-	B <= test(31 downto 16);
 	
+	--- test every 16384
+	
+	delayA <= A after 480ns;
+	delayB <= B after 480ns;  
+	C <= '0';
 	
 end TB_ARCHITECTURE;
 

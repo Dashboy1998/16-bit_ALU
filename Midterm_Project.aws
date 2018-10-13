@@ -19,4 +19,4 @@ adder_16bits=0
 16bitadder=0
 adder_16bit=1
 [Settings]
-Active=fulladder
+Active=adder_16bit

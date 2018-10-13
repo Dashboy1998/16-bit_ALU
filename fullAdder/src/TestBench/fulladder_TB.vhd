@@ -25,6 +25,7 @@ architecture TB_ARCHITECTURE of fulladder_tb is
 	signal delayA : STD_LOGIC:='0';
 	signal delayB : STD_LOGIC:='0';
 	signal delayCin : STD_LOGIC:='0';
+	signal testValue : std_logic_vector(2 downto 0);
 	-- Observed signals - signals mapped to the output ports of tested entity
 	signal S : STD_LOGIC:='0';
 	signal Cout : STD_LOGIC:='0';
@@ -48,7 +49,8 @@ begin
 	process
 	begin
 		for i in 0 to 7 loop
-			A <= std_logic_vector((to_unsigned(i, 3)))(2);
+			testValue <= std_logic_vector(to_unsigned(i, 3));
+			A <= testValue(0);
 		end loop;
 	end process;
 	
