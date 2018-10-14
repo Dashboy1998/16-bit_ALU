@@ -1,0 +1,73 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=VHDL_Workspace_2
+
+[Library]
+VHDL_Workspace_2=.\VHDL_Workspace_2\VHDL_Workspace_2.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=1
+
+[$LibMap$]
+VHDL_Workspace_2=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[Folders]
+Name3=Makefiles
+Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 2\
+Extension3=mak
+Name4=Memory
+Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 2\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 2\
+Extension5=dll
+Name6=PDF
+Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 2\
+Extension6=pdf
+Name7=HTML
+Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 2\
+Extension7=htm;html
+
+[Files]
+/fullAdder.vhd=-1
+TestBench/fulladder_TB.vhd=-1
+TestBench/fulladder_TB_runtest.do=-1
+
+[Files.Data]
+.\src\fullAdder Waveform.awf=Waveform File
+.\src\fullAdder.vhd=VHDL Source Code
+.\src\TestBench\fulladder_TB.vhd=VHDL Test Bench
+.\src\TestBench\fulladder_TB_runtest.do=Macro
+
+[Groups]
+TestBench=1
+

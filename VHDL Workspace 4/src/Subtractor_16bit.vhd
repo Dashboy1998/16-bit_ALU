@@ -1,7 +1,7 @@
 library ieee;
-library adder_16bit;
+library VHDL_Workspace_3;
 library gate_lib;
-use Adder_16bit.all;
+use VHDL_Workspace_3.all;
 use ieee.std_logic_1164.all;
 use gate_lib.all;
 

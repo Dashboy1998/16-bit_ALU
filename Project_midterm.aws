@@ -1,0 +1,28 @@
+[Version]
+Version=10.3
+[Designs]
+gate_lib=.\gate_lib\gate_lib.adf
+vhdl workspace 1=.\VHDL Workspace 1\VHDL Workspace 1.adf
+vhdl workspace 2=.\VHDL Workspace 2\VHDL Workspace 2.adf
+vhdl workspace 3=.\VHDL Workspace 3\VHDL Workspace 3.adf
+vhdl workspace 4=.\VHDL Workspace 4\VHDL Workspace 4.adf
+vhdl workspace 5=.\VHDL Workspace 5\VHDL Workspace 5.adf
+vhdl workspace 6=.\VHDL Workspace 6\VHDL Workspace 6.adf
+vhdl workspace 7=.\VHDL Workspace 7\VHDL Workspace 7.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+gate_lib=1
+vhdl workspace 1=1
+vhdl workspace 2=1
+vhdl workspace 3=1
+vhdl workspace 4=1
+vhdl workspace 5=1
+vhdl workspace 6=1
+vhdl workspace 7=1
+[Settings]
+Active=vhdl workspace 4

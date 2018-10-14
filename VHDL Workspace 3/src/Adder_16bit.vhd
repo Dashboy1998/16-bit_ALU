@@ -1,9 +1,9 @@
 library ieee;
-library fullAdder;
-library halfAdder;
+library VHDL_Workspace_2;
+library VHDL_Workspace_3;
 use ieee.std_logic_1164.all;
-use fullAdder.all;
-use halfAdder.all;
+use VHDL_Workspace_2.all;
+use VHDL_Workspace_3.all;
 
 entity Adder_16bits is
 	port(

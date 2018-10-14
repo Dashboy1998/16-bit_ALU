@@ -19,16 +19,16 @@ architecture TB_ARCHITECTURE of fulladder_tb is
 	end component;
 
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
-	signal A : STD_LOGIC:='0';
-	signal B : STD_LOGIC:='0';
-	signal Cin : STD_LOGIC:='0';
+	signal A : STD_LOGIC;
+	signal B : STD_LOGIC;
+	signal Cin : STD_LOGIC;	   
 	signal delayA : STD_LOGIC:='0';
 	signal delayB : STD_LOGIC:='0';
 	signal delayCin : STD_LOGIC:='0';
 	signal testValue : std_logic_vector(2 downto 0);
 	-- Observed signals - signals mapped to the output ports of tested entity
-	signal S : STD_LOGIC:='0';
-	signal Cout : STD_LOGIC:='0';
+	signal S : STD_LOGIC;
+	signal Cout : STD_LOGIC;
 
 	-- Add your code here ...
 

@@ -5,6 +5,7 @@ asim +access +r TESTBENCH_FOR_adder_16bits
 wave 
 wave -noreg A
 wave -noreg B
+wave -noreg C
 wave -noreg S
 # The following lines can be used for timing simulation
 # acom <backannotated_vhdl_file_name>

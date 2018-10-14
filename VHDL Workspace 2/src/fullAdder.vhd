@@ -1,8 +1,8 @@
 library ieee;
-library halfAdder;
+library VHDL_Workspace_1;
 library gate_lib;
 use ieee.std_logic_1164.all;
-use halfAdder.all;
+use VHDL_Workspace_1.all;
 use gate_lib.all;
 
 entity fullAdder is

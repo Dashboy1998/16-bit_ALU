@@ -5,10 +5,10 @@ version=3
 Current Config=compile
 
 [Configurations]
-compile=Adder_16bit
+compile=VHDL_Workspace_3
 
 [Library]
-Adder_16bit=.\Adder_16bit\Adder_16bit.lib
+VHDL_Workspace_3=.\VHDL_Workspace_3\VHDL_Workspace_3.lib
 
 [Settings]
 AccessRead=0
@@ -24,7 +24,7 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
-fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\src\TestBench
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\src
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -34,7 +34,7 @@ EnableDebug=0
 CompileWithDebug=1
 
 [$LibMap$]
-Adder_16bit=.
+VHDL_Workspace_3=.
 Active_lib=
 
 [SpecTracer]
@@ -42,25 +42,20 @@ WindowVisible=0
 
 [Folders]
 Name3=Makefiles
-Directory3=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\
 Extension3=mak
 Name4=Memory
-Directory4=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\
 Extension5=dll
 Name6=PDF
-Directory6=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\
 Extension6=pdf
 Name7=HTML
-Directory7=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\
+Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\
 Extension7=htm;html
-
-[HierarchyViewer]
-HierarchyInformation=adder_16bits_tb|testbench_for_adder_16bits|1 
-ShowHide=ShowTopLevel
-Selected=
 
 [Groups]
 TestBench=1
@@ -68,14 +63,12 @@ TestBench=1
 [Files]
 /Adder_16bit.vhd=-1
 /testValues.vhd=-1
-TestBench/adder_16bits Waveform.awf=-1
 TestBench/adder_16bits_TB.vhd=-1
 TestBench/adder_16bits_TB_runtest.do=-1
 
 [Files.Data]
 .\src\Adder_16bit.vhd=VHDL Source Code
 .\src\testValues.vhd=VHDL Source Code
-.\src\TestBench\adder_16bits Waveform.awf=Waveform File
+
 .\src\TestBench\adder_16bits_TB.vhd=VHDL Test Bench
 .\src\TestBench\adder_16bits_TB_runtest.do=Macro
-

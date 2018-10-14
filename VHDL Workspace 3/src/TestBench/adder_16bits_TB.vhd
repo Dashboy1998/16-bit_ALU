@@ -1,9 +1,9 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.testVector.all;
 	-- Add your library and packages declaration here ...
-use work.testVector.all;	
-	
+
 entity adder_16bits_tb is
 end adder_16bits_tb;
 
@@ -13,7 +13,7 @@ architecture TB_ARCHITECTURE of adder_16bits_tb is
 	port(
 		A : in STD_LOGIC_VECTOR(15 downto 0);
 		B : in STD_LOGIC_VECTOR(15 downto 0);
-		C : in STD_LOGIC; 
+		C : in STD_LOGIC;
 		S : inout STD_LOGIC_VECTOR(15 downto 0) );
 	end component;
 
@@ -21,7 +21,7 @@ architecture TB_ARCHITECTURE of adder_16bits_tb is
 	signal A : STD_LOGIC_VECTOR(15 downto 0);
 	signal B : STD_LOGIC_VECTOR(15 downto 0);
 	signal C : STD_LOGIC;
-	signal S : STD_LOGIC_VECTOR(15 downto 0); 
+	signal S : STD_LOGIC_VECTOR(15 downto 0);
 	signal delayA : STD_LOGIC_VECTOR(15 downto 0):=(others => '0');
 	signal delayB : STD_LOGIC_VECTOR(15 downto 0):=(others => '0');
 	signal answer : signed(15 downto 0):=(others => '0');
@@ -29,7 +29,7 @@ architecture TB_ARCHITECTURE of adder_16bits_tb is
 	-- Observed signals - signals mapped to the output ports of tested entity
 
 	-- Add your code here ...
-	
+
 begin
 
 	-- Unit Under Test port map

@@ -21,8 +21,8 @@ DisableC=1
 ENABLE_ADV_DATAFLOW=0
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
-FLOWTOOLS=NONE
 REFRESH_FLOW=1
+FLOWTOOLS=NONE
 FAMILY=
 fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\gate_lib\src
 
@@ -36,9 +36,6 @@ CompileWithDebug=1
 [$LibMap$]
 gate_lib=.
 Active_lib=
-
-[SpecTracer]
-WindowVisible=0
 
 [Files]
 /and2.vhd=-1
@@ -60,17 +57,19 @@ WindowVisible=0
 
 [Folders]
 Name3=Makefiles
-Directory3=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\gate_lib\
+Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
 Extension3=mak
 Name4=Memory
-Directory4=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\gate_lib\
+Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\gate_lib\
+Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
 Extension5=dll
 Name6=PDF
-Directory6=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\gate_lib\
+Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
 Extension6=pdf
 Name7=HTML
-Directory7=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\gate_lib\
+Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
 Extension7=htm;html
+[SpecTracer]
+WindowVisible=0
