@@ -24,7 +24,7 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
-fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Subtractor_16bit\src
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 4\src\TestBench
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -57,9 +57,23 @@ Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 4\
 Extension7=htm;html
 
+[HierarchyViewer]
+HierarchyInformation=subtractor_16bit|structural|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
 [Files]
 /Subtractor_16bit.vhd=-1
+TestBench/subtractor_16bit_TB.vhd=-1
+TestBench/subtractor_16bit_TB_runtest.do=-1
+TestBench/subtractor_16bit Waveform.awf=-1
 
 [Files.Data]
 .\src\Subtractor_16bit.vhd=VHDL Source Code
+.\src\TestBench\subtractor_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\subtractor_16bit_TB_runtest.do=Macro
+.\src\TestBench\subtractor_16bit Waveform.awf=Waveform File
 

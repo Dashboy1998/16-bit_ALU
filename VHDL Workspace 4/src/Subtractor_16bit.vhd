@@ -8,7 +8,7 @@ use gate_lib.all;
 entity subtractor_16bit is
 	port(
 		A, B: in std_logic_vector(15 downto 0);
-		D: out std_logic_vector(15 downto 0) -- difference
+		D: inout std_logic_vector(15 downto 0) -- difference
 	);
 end subtractor_16bit;
 

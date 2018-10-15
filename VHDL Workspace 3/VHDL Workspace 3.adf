@@ -24,7 +24,7 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
-fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\Adder_16bit\src
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\src\TestBench
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -57,18 +57,21 @@ Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 3\
 Extension7=htm;html
 
+[Files.Data]
+.\src\Adder_16bit.vhd=VHDL Source Code
+.\src\testValues.vhd=VHDL Source Code
+.\src\adder_16bits Waveform.awf=Waveform File
+.\src\TestBench\adder_16bits_TB.vhd=VHDL Test Bench
+.\src\TestBench\adder_16bits_TB_runtest.do=Macro
+.\src\TestBench\adder_16bits Waveform.awf=Waveform File
+
 [Groups]
 TestBench=1
 
 [Files]
 /Adder_16bit.vhd=-1
 /testValues.vhd=-1
+TestBench/adder_16bits Waveform.awf=-1
 TestBench/adder_16bits_TB.vhd=-1
 TestBench/adder_16bits_TB_runtest.do=-1
 
-[Files.Data]
-.\src\Adder_16bit.vhd=VHDL Source Code
-.\src\testValues.vhd=VHDL Source Code
-
-.\src\TestBench\adder_16bits_TB.vhd=VHDL Test Bench
-.\src\TestBench\adder_16bits_TB_runtest.do=Macro

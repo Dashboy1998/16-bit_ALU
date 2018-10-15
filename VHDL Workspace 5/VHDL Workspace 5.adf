@@ -47,3 +47,7 @@ Extension6=pdf
 Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
 Extension7=htm;html
+[Files]
+/multiplier_16bits.vhd=-1
+[Files.Data]
+.\src\multiplier_16bits.vhd=VHDL Source Code
