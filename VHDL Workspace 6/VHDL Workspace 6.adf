@@ -58,13 +58,13 @@ Extension7=htm;html
 
 [Files]
 /Mux_8-1.vhd=-1
-/nMux.vhd=-1
 
 [Files.Data]
 .\src\Mux_8-1.vhd=VHDL Source Code
 .\src\nMux.vhd=VHDL Source Code
 
 [HierarchyViewer]
-HierarchyInformation=mux_8|structural|0 
+HierarchyInformation=mux_8|structural|0
 ShowHide=ShowTopLevel
 Selected=
+

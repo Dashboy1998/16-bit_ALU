@@ -17,11 +17,11 @@ order=1
 macro=
 [Expand]
 gate_lib=1
-vhdl workspace 1=1
+vhdl workspace 1=0
 vhdl workspace 2=0
 vhdl workspace 3=0
 vhdl workspace 4=0
-vhdl workspace 5=0
+vhdl workspace 5=1
 vhdl workspace 6=1
 vhdl workspace 7=0
 [Settings]
