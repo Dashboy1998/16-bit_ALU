@@ -1,7 +1,6 @@
 library ieee;
 library gate_lib;
-use gate_lib.all;
-use ieee.numeric_std.all;
+use gate_lib.all;		
 use ieee.std_logic_1164.all;
 
 entity Mux_8 is

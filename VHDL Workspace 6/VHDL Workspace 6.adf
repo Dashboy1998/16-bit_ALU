@@ -56,15 +56,16 @@ Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension7=htm;html
 
-[Files]
-/Mux_8-1.vhd=-1
-
-[Files.Data]
-.\src\Mux_8-1.vhd=VHDL Source Code
-.\src\nMux.vhd=VHDL Source Code
-
 [HierarchyViewer]
 HierarchyInformation=mux_8|structural|0
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/Mux_8-1.vhd=-1
+/MUX_8-1_16Bus.vhd=-1
+
+[Files.Data]
+.\src\Mux_8-1.vhd=VHDL Source Code
+.\src\MUX_8-1_16Bus.vhd=VHDL Source Code
 
