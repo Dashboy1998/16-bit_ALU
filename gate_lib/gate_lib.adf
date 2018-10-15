@@ -45,6 +45,9 @@ Active_lib=
 /or2.vhd=-1
 /xnor2.vhd=-1
 /xor2.vhd=-1
+/delays.vhd=-1
+/and_gate.vhd=-1
+/or_gate.vhd=-1
 
 [Files.Data]
 .\src\and2.vhd=VHDL Source Code
@@ -54,6 +57,9 @@ Active_lib=
 .\src\or2.vhd=VHDL Source Code
 .\src\xnor2.vhd=VHDL Source Code
 .\src\xor2.vhd=VHDL Source Code
+.\src\delays.vhd=VHDL Source Code
+.\src\and_gate.vhd=VHDL Source Code
+.\src\or_gate.vhd=VHDL Source Code
 
 [Folders]
 Name3=Makefiles

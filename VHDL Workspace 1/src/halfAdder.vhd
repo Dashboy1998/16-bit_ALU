@@ -5,7 +5,7 @@ use gate_lib.all;
 
 entity halfAdder is
 	port(
-	A, B: in std_logic:='0';
+	A, B: in std_logic:='0'; -- Inputs of half adder
 	S, Cout: out std_logic:='0' -- SUM and Carry bit
 	);
 end entity halfAdder;

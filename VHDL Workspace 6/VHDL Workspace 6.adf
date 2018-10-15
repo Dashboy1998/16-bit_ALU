@@ -3,10 +3,13 @@ Current Flow=Generic
 VCS=0
 version=3
 Current Config=compile
+
 [Configurations]
 compile=VHDL_Workspace_6
+
 [Library]
 VHDL_Workspace_6=.\VHDL_Workspace_6\VHDL_Workspace_6.lib
+
 [Settings]
 AccessRead=0
 AccessReadWrite=0
@@ -21,16 +24,21 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
+
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+
 [LocalVhdlSets]
 CompileWithDebug=1
+
 [$LibMap$]
 VHDL_Workspace_6=.
 Active_lib=
+
 [SpecTracer]
 WindowVisible=0
+
 [Folders]
 Name3=Makefiles
 Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
@@ -47,3 +55,16 @@ Extension6=pdf
 Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension7=htm;html
+
+[Files]
+/Mux_8-1.vhd=-1
+/nMux.vhd=-1
+
+[Files.Data]
+.\src\Mux_8-1.vhd=VHDL Source Code
+.\src\nMux.vhd=VHDL Source Code
+
+[HierarchyViewer]
+HierarchyInformation=mux_8|structural|0 
+ShowHide=ShowTopLevel
+Selected=

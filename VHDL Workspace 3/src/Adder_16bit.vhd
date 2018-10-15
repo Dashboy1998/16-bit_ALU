@@ -19,14 +19,12 @@ component fullAdder
 end component fullAdder;
 signal Co: std_logic_vector(15 downto 0); -- May not need #15
 begin
-	LSB: fullAdder port map(A(0), B(0), C, S(0), Co(0));
+	LSB: fullAdder port map(A(0), B(0), C, S(0), Co(0)); -- Least significant bit
 	
-	Add: for i in 1 to 15 generate
+	Add: for i in 1 to 15 generate -- Generate to create the other bits
 		alias Cin : std_logic is Co(i-1); -- Alias to make the carry out of I-1 into the carry in of I
 		begin	  
-		AddX:fullAdder port map(A(i),B(i), Cin, S(i), Co(i));
-	end generate Add;						 
-	
-	--mux: mux port map(Sum(i), Pro(i), A(i), B(i), Dif(i), 0, 0, S0, S1, S2, O(i));
+		AddX:fullAdder port map(A(i),B(i), Cin, S(i), Co(i)); -- ith bit
+	end generate Add;
 	
 end structural;

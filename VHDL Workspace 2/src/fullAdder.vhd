@@ -7,8 +7,8 @@ use gate_lib.all;
 
 entity fullAdder is
 	port(
-	A, B, Cin: in std_logic:='0';
-	S, Cout: out std_logic:='0'
+	A, B, Cin: in std_logic:='0'; -- Inputs
+	S, Cout: out std_logic:='0'	-- Outputs
 	);
 end entity fullAdder;
 
