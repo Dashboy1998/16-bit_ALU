@@ -49,6 +49,7 @@ Active_lib=
 /and_gate.vhd=-1
 /or_gate.vhd=-1
 /and4.vhd=-1
+/nor_gate.vhd=-1
 
 [Files.Data]
 .\src\and2.vhd=VHDL Source Code
@@ -62,6 +63,7 @@ Active_lib=
 .\src\and_gate.vhd=VHDL Source Code
 .\src\or_gate.vhd=VHDL Source Code
 .\src\and4.vhd=VHDL Source Code
+.\src\nor_gate.vhd=VHDL Source Code
 
 [Folders]
 Name3=Makefiles
