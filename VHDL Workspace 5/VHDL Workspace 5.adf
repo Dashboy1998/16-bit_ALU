@@ -33,21 +33,33 @@ Active_lib=
 WindowVisible=0
 [Folders]
 Name3=Makefiles
-Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
+Directory3=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
 Extension3=mak
 Name4=Memory
-Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
+Directory4=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
+Directory5=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
 Extension5=dll
 Name6=PDF
-Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
+Directory6=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
 Extension6=pdf
 Name7=HTML
-Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
+Directory7=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 5\
 Extension7=htm;html
 [Files]
 /multiplier_16bits.vhd=-1
+/sumPP.vhd=-1
+TestBench/multiplier_16bit_TB.vhd=-1
+TestBench/multiplier_16bit_TB_runtest.do=-1
 [Files.Data]
 .\src\multiplier_16bits.vhd=VHDL Source Code
+.\src\sumPP.vhd=VHDL Source Code
+.\src\TestBench\multiplier_16bit_TB.vhd=VHDL Test Bench
+.\src\TestBench\multiplier_16bit_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=multiplier_16bit_tb|testbench_for_multiplier_16bit|1 
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1
