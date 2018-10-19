@@ -56,15 +56,18 @@ architecture structural of ALU_16bits is
 	component nor_gate  		 
 		port(A: in std_logic_vector; C : out std_logic);	
 	end component nor_gate;
+	signal S: std_logic_vector(2 downto 0):=(others=>'0');
 	signal Sum, Diff: std_logic_vector(15 downto 0):=(others=>'0');
 	signal Pro: std_logic_vector(31 downto 0):=(others=>'0');
 	signal MS: std_logic:='0'; -- Sign of multiplication result
 	signal X: std_logic_vector(31 downto 15):=(others=>'0'); -- Used to check overflow of multiplier
-begin									
+begin
+	S <= S2 & S1 & S0; -- Bus of select inputs
+	
 	Add: Adder_16bits port map(A, B, '0', Sum);	-- Addition
 	Sub: subtractor_16bit port map(A, B, Diff);	-- Subtraction
 	Mult: multiplier_16bit port map(A, B, Pro); -- Multiplication
-	MUX: Mux_8_16Bus port map(Sum, Pro(15 downto 0), A, B, Diff, X"0000", X"0000", X"0000", S, R);
+	MUX: Mux_8_16Bus port map(Sum, Pro(15 downto 0), A, B, Diff, X"0000", X"0000", X"0000", S, R); -- Mux
 	
 	-- Status Registors
 	-- Overflow detection for multiplication
@@ -73,9 +76,9 @@ begin
 		begin
 		Xi: xor2 port map(MS, Pro(i), X(i));
 	end generate;
-	OVF: or_gate port map(X, R(2)); -- Detect Overflow
+	OVF: or_gate port map(X, status(2)); -- Detect Overflow
 	
 	-- Result is zero
-	Zero: nor_gate(R, 
+	--Zero: nor_gate(R, 
 	
 end structural;
