@@ -3,10 +3,13 @@ Current Flow=Generic
 VCS=0
 version=3
 Current Config=compile
+
 [Configurations]
 compile=VHDL_Workspace_7
+
 [Library]
 VHDL_Workspace_7=.\VHDL_Workspace_7\VHDL_Workspace_7.lib
+
 [Settings]
 AccessRead=0
 AccessReadWrite=0
@@ -21,16 +24,22 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\src\TestBench
+
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+
 [LocalVhdlSets]
 CompileWithDebug=1
+
 [$LibMap$]
 VHDL_Workspace_7=.
 Active_lib=
+
 [SpecTracer]
 WindowVisible=0
+
 [Folders]
 Name3=Makefiles
 Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
@@ -47,11 +56,24 @@ Extension6=pdf
 Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
 Extension7=htm;html
+
 [Files]
 /ALU_16bit.vhd=-1
+TestBench/alu_16bits_TB.vhd=-1
+TestBench/alu_16bits_TB_runtest.do=-1
+TestBench/ALU_16bit Waveform.awf=-1
+
 [Files.Data]
 .\src\ALU_16bit.vhd=VHDL Source Code
+.\src\TestBench\alu_16bits_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_16bits_TB_runtest.do=Macro
+.\src\TestBench\ALU_16bit Waveform.awf=Waveform File
+
 [HierarchyViewer]
-HierarchyInformation=alu_16bits|structural|0 
+HierarchyInformation=alu_16bits|structural|0
 ShowHide=ShowTopLevel
 Selected=
+
+[Groups]
+TestBench=1
+

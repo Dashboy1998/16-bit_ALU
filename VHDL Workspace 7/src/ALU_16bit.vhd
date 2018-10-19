@@ -60,7 +60,7 @@ architecture structural of ALU_16bits is
 	signal Sum, Diff: std_logic_vector(15 downto 0):=(others=>'0');
 	signal Pro: std_logic_vector(31 downto 0):=(others=>'0');
 	signal MS: std_logic:='0'; -- Sign of multiplication result
-	signal X: std_logic_vector(31 downto 15):=(others=>'0'); -- Used to check overflow of multiplier
+	signal X: std_logic_vector(15 to 31):=(others=>'0'); -- Used to check overflow of multiplier
 begin
 	S <= S2 & S1 & S0; -- Bus of select inputs
 	
@@ -80,7 +80,7 @@ begin
 	
 	-- Result is zero
 	Zero: nor_gate port map(R, status(1)); -- Detects if result is zero	
-		
+	
 	-- Results is negative
 	status(0) <= R(15); -- Detects overflow
 	

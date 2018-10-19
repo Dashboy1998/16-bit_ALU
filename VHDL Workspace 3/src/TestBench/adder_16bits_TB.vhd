@@ -43,15 +43,15 @@ begin
 
 	-- Add your stimulus here ...
 	
-	process
+	process	-- Used to show where the final answer will appear
 	begin 			  
 		wait for 240 ns;
 		clk <= not clk;
 	end process;
 	
-	process
+	process	-- Test the input values
 	begin
-		for i in testAddition'left to testAddition'right loop
+		for i in testAddition'left to testAddition'right loop -- Loops through all the possible input combinations using the data from the test array
 			B <= testAddition(i); 
 			for j in testAddition'left to testAddition'right loop
 				A<= testAddition(j); 
@@ -64,9 +64,10 @@ begin
 	severity failure;
 	end process;
 	
+	-- Delay of the input values
 	delayA <= A after 480ns;
 	delayB <= B after 480ns;
-	answer <= signed(delayA) + signed(delayB);
+	answer <= signed(delayA) + signed(delayB); -- What the result shoudl be 
 	C <= '0';
 	
 end TB_ARCHITECTURE;

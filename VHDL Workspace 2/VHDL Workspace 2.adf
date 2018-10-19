@@ -24,7 +24,7 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
-fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Midterm_Project\fullAdder\src
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 2\src\TestBench
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -64,9 +64,11 @@ TestBench=1
 /fullAdder.vhd=-1
 TestBench/fulladder_TB.vhd=-1
 TestBench/fulladder_TB_runtest.do=-1
+TestBench/fullAdder Waveform.awf=-1
 
 [Files.Data]
 .\src\fullAdder.vhd=VHDL Source Code
 .\src\TestBench\fulladder_TB.vhd=VHDL Test Bench
 .\src\TestBench\fulladder_TB_runtest.do=Macro
+.\src\TestBench\fullAdder Waveform.awf=Waveform File
 
