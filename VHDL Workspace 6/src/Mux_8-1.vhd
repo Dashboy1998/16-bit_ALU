@@ -24,8 +24,8 @@ architecture structural of Mux_8 is
 		generic(pDelay : time := 0 ns);
 		port(A: in std_logic; B: out std_logic);
 	end component not1;
-	signal ANDn: std_logic_vector(0 to 7);
-	signal nS : std_logic_vector(2 downto 0);
+	signal ANDn: std_logic_vector(0 to 7):=(others => '0');
+	signal nS : std_logic_vector(2 downto 0):=(others => '0');
 begin
 	notS: for i in 0 to 2 generate -- Creates nots of the select lines
 		begin

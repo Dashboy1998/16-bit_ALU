@@ -11,5 +11,5 @@ end entity and4;
 
 architecture and4 of and4 is
 begin
-	F <= A and B and C and D after propagation;
+	F <= A and B and C and D after pDelay;
 end architecture;

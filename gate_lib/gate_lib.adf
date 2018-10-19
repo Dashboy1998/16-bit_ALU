@@ -37,34 +37,6 @@ CompileWithDebug=1
 gate_lib=.
 Active_lib=
 
-[Files]
-/and2.vhd=-1
-/nand2.vhd=-1
-/nor2.vhd=-1
-/not1.vhd=-1
-/or2.vhd=-1
-/xnor2.vhd=-1
-/xor2.vhd=-1
-/delays.vhd=-1
-/and_gate.vhd=-1
-/or_gate.vhd=-1
-/and4.vhd=-1
-/nor_gate.vhd=-1
-
-[Files.Data]
-.\src\and2.vhd=VHDL Source Code
-.\src\nand2.vhd=VHDL Source Code
-.\src\nor2.vhd=VHDL Source Code
-.\src\not1.vhd=VHDL Source Code
-.\src\or2.vhd=VHDL Source Code
-.\src\xnor2.vhd=VHDL Source Code
-.\src\xor2.vhd=VHDL Source Code
-.\src\delays.vhd=VHDL Source Code
-.\src\and_gate.vhd=VHDL Source Code
-.\src\or_gate.vhd=VHDL Source Code
-.\src\and4.vhd=VHDL Source Code
-.\src\nor_gate.vhd=VHDL Source Code
-
 [Folders]
 Name3=Makefiles
 Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
@@ -81,9 +53,40 @@ Extension6=pdf
 Name7=HTML
 Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\gate_lib\
 Extension7=htm;html
+
 [SpecTracer]
 WindowVisible=0
+
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/delays.vhd=-1
+/not1.vhd=-1
+/xnor2.vhd=-1
+/xor2.vhd=-1
+/or2.vhd=-1
+/or_gate.vhd=-1
+/and_gate.vhd=-1
+/nand2.vhd=-1
+/nor2.vhd=-1
+/nor_gate.vhd=-1
+/and2.vhd=-1
+/and4.vhd=-1
+
+[Files.Data]
+.\src\delays.vhd=VHDL Source Code
+.\src\not1.vhd=VHDL Source Code
+.\src\xnor2.vhd=VHDL Source Code
+.\src\xor2.vhd=VHDL Source Code
+.\src\or2.vhd=VHDL Source Code
+.\src\or_gate.vhd=VHDL Source Code
+.\src\and_gate.vhd=VHDL Source Code
+.\src\nand2.vhd=VHDL Source Code
+.\src\nor2.vhd=VHDL Source Code
+.\src\nor_gate.vhd=VHDL Source Code
+.\src\and2.vhd=VHDL Source Code
+.\src\and4.vhd=VHDL Source Code
+

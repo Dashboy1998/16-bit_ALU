@@ -14,7 +14,7 @@ begin
 	process(A)
 	begin 
 		C <= '1' after pDelay;
-		for i in A'right to A'left loop
+		for i in A'right downto A'left loop
 			if(A(i) /= '1') then
 				C <= '0' after pDelay;
 				exit;

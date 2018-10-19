@@ -24,6 +24,7 @@ LANGUAGE=VHDL
 FLOWTOOLS=NONE
 REFRESH_FLOW=1
 FAMILY=
+fileopenfolder=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\src\TestBench
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -31,6 +32,18 @@ EnableDebug=0
 
 [LocalVhdlSets]
 CompileWithDebug=1
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=1
+EnableVHDL2008Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
 
 [$LibMap$]
 VHDL_Workspace_6=.
@@ -41,19 +54,19 @@ WindowVisible=0
 
 [Folders]
 Name3=Makefiles
-Directory3=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
+Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension3=mak
 Name4=Memory
-Directory4=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
+Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
+Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension5=dll
 Name6=PDF
-Directory6=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
+Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension6=pdf
 Name7=HTML
-Directory7=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
+Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 6\
 Extension7=htm;html
 
 [HierarchyViewer]
@@ -61,11 +74,20 @@ HierarchyInformation=mux_8|structural|0
 ShowHide=ShowTopLevel
 Selected=
 
+[Groups]
+TestBench=1
+
 [Files]
 /Mux_8-1.vhd=-1
 /MUX_8-1_16Bus.vhd=-1
+TestBench/mux_8_16bus_TB.vhd=-1
+TestBench/mux_8_16bus_TB_runtest.do=-1
+TestBench/mux_8_16bus Waveform.awf=-1
 
 [Files.Data]
 .\src\Mux_8-1.vhd=VHDL Source Code
 .\src\MUX_8-1_16Bus.vhd=VHDL Source Code
+.\src\TestBench\mux_8_16bus_TB.vhd=VHDL Test Bench
+.\src\TestBench\mux_8_16bus_TB_runtest.do=Macro
+.\src\TestBench\mux_8_16bus Waveform.awf=Waveform File
 

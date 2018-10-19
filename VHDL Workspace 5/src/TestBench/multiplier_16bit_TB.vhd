@@ -21,8 +21,6 @@ architecture TB_ARCHITECTURE of multiplier_16bit_tb is
 	-- Stimulus signals - signals mapped to the input and inout ports of tested entity
 	signal A : STD_LOGIC_VECTOR(15 downto 0);
 	signal B : STD_LOGIC_VECTOR(15 downto 0);
-	signal delayA : STD_LOGIC_VECTOR(15 downto 0):=(others => '0');
-	signal delayB : STD_LOGIC_VECTOR(15 downto 0):=(others => '0');
 	signal answer : signed(31 downto 0):=(others => '0');
 	signal clk : std_logic:='0';
 	-- Observed signals - signals mapped to the output ports of tested entity
@@ -63,9 +61,7 @@ begin
 	severity failure;
 	end process;
 	
-	delayA <= A when clk'event and clk = '0';
-	delayB <= B when clk'event and clk = '0';
-	answer <= signed(delayA) * signed(delayB);
+	answer <= signed(A) * signed(B);
 	
 end TB_ARCHITECTURE;
 
