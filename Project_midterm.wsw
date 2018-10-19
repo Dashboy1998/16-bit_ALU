@@ -1,5 +1,19 @@
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\VHDL Workspace 5\src/TestBench/multiplier_16bit_TB.vhd|]
 TemplateId=0
-[OPENDOC|Aldec.Hde.HdePlugIn.7|.\VHDL Workspace 5\src/multiplier_16bits.vhd|]
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\VHDL Workspace 7\src\ALU_16bit.vhd|]
 TemplateId=0
 ActiveDocument=1
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\VHDL Workspace 6\src/MUX_8-1_16Bus.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\gate_lib\src/or2.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\gate_lib\src/or_gate.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\gate_lib\src/and_gate.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\gate_lib\src\nor_gate.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\gate_lib\src/xor2.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\VHDL Workspace 6\src/Mux_8-1.vhd|]
+TemplateId=0

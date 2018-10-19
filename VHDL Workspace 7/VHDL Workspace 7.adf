@@ -51,3 +51,7 @@ Extension7=htm;html
 /ALU_16bit.vhd=-1
 [Files.Data]
 .\src\ALU_16bit.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=alu_16bits|structural|0 
+ShowHide=ShowTopLevel
+Selected=

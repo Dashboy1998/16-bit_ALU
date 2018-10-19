@@ -22,7 +22,7 @@ vhdl workspace 2=0
 vhdl workspace 3=0
 vhdl workspace 4=0
 vhdl workspace 5=0
-vhdl workspace 6=0
+vhdl workspace 6=1
 vhdl workspace 7=1
 [Settings]
-Active=gate_lib
+Active=vhdl workspace 7
