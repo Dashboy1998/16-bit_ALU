@@ -13,9 +13,11 @@ use VHDL_Workspace_5.all; -- 16 bit multiplier
 use VHDL_Workspace_6.all; -- 16 bit bus 8-1 Mux
 
 entity ALU_16bits is
-	port(A, B: in std_logic_vector(15 downto 0):=(others=>'0');
-		S: in std_logic_vector(2 downto 0):=(others=>'0');
-		R: out std_logic_vector(15 downto 0):=(others=>'0'));
+	port(A, B: in std_logic_vector(15 downto 0):=(others=>'0');	
+		R: inout std_logic_vector(15 downto 0):=(others=>'0');
+		S2, S1, S0: in std_logic:='0';
+		status: out std_logic_vector(2 downto 0):=(others=>'0')
+		);
 end ALU_16bits;
 
 architecture structural of ALU_16bits is					
@@ -51,6 +53,9 @@ architecture structural of ALU_16bits is
 	component or_gate  		 
 		port(A: in std_logic_vector; C : out std_logic);	
 	end component or_gate;
+	component nor_gate  		 
+		port(A: in std_logic_vector; C : out std_logic);	
+	end component nor_gate;
 	signal Sum, Diff: std_logic_vector(15 downto 0):=(others=>'0');
 	signal Pro: std_logic_vector(31 downto 0):=(others=>'0');
 	signal MS: std_logic:='0'; -- Sign of multiplication result
@@ -62,11 +67,15 @@ begin
 	MUX: Mux_8_16Bus port map(Sum, Pro(15 downto 0), A, B, Diff, X"0000", X"0000", X"0000", S, R);
 	
 	-- Status Registors
+	-- Overflow detection for multiplication
 	XMS: xor2 port map(A(15), B(15), MS);
 	Xs: for i in 15 to 31 generate
 		begin
-			Xi: xor2 port map(MS, Pro(i), X(i));
-		end generate;
+		Xi: xor2 port map(MS, Pro(i), X(i));
+	end generate;
 	OVF: or_gate port map(X, R(2)); -- Detect Overflow
+	
+	-- Result is zero
+	Zero: nor_gate(R, 
 	
 end structural;

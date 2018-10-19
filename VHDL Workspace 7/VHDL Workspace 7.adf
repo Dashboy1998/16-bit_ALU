@@ -33,19 +33,19 @@ Active_lib=
 WindowVisible=0
 [Folders]
 Name3=Makefiles
-Directory3=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
+Directory3=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
 Extension3=mak
 Name4=Memory
-Directory4=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
+Directory4=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
+Directory5=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
 Extension5=dll
 Name6=PDF
-Directory6=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
+Directory6=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
 Extension6=pdf
 Name7=HTML
-Directory7=C:\Users\Carlos\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
+Directory7=F:\Documents\School\2018 Fall\ECE 543\MidTermProject\Project_midterm\VHDL Workspace 7\
 Extension7=htm;html
 [Files]
 /ALU_16bit.vhd=-1
