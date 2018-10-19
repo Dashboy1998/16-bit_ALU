@@ -79,6 +79,9 @@ begin
 	OVF: or_gate port map(X, status(2)); -- Detect Overflow
 	
 	-- Result is zero
-	Zero: nor_gate port map(R, status(1)); -- Detects if result is zero
+	Zero: nor_gate port map(R, status(1)); -- Detects if result is zero	
+		
+	-- Results is negative
+	status(0) <= R(15); -- Detects overflow
 	
 end structural;

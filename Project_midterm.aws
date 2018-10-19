@@ -16,7 +16,7 @@ mode=none
 order=1
 macro=
 [Expand]
-gate_lib=1
+gate_lib=0
 vhdl workspace 1=0
 vhdl workspace 2=0
 vhdl workspace 3=0
@@ -25,4 +25,4 @@ vhdl workspace 5=0
 vhdl workspace 6=0
 vhdl workspace 7=1
 [Settings]
-Active=vhdl workspace 7
+Active=gate_lib
